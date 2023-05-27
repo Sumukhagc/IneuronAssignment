@@ -1,0 +1,37 @@
+1. Keywords are reserved words in python which has proper meaning when interpreted by compiler.
+   Ex. def keyword is used in python to declare a method.
+   code to print keywords in python
+	import keyword
+	print(keyword.kwlist)
+
+2.variables should not start with number.
+  can contain alphanumeric digits.
+  should not contain special characters other than '_' underscore.
+  variables are case sensitive.
+
+3. Use lower case to declare variable.
+   Use _ while using seperate words. (snake case)
+   always give meaningful name for a variable
+   use capital letters while declaring a constant.
+
+4.It will throw syntax error.
+
+5.To declare function we use def keyword.
+
+6. It is used as an escape character.
+
+7. a=[1,2,3,4,5]
+   b={1,True,"hello",4,5}
+   c=(1,2,3,4,5)
+
+8. mutable means we can modify the values immutable means we cannot modify the values.
+   ex: Lists are mutable  a=[1,2,3]
+       we can append 4 to list a like a.append(4)
+   Tuples are immputable a=(1,2,3,4,5) we cannot modify the values if we try it will 
+   throw error.
+
+9. for i in range(1,6):
+      print(" " * (5-i) + "*" * (2*i-1))
+
+10. for i in range(5,0,-1):
+    	print(" " * (5-i) + "|" * (2*i-1))
