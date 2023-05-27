@@ -1,0 +1,20 @@
+1. a={} is an empty dictionary.
+
+2. Dictioary value is 42
+
+3. Dictionary stores value in the form of key value pair. While iterating dictionary we
+   use key to access the corresponding value. List is used to store values in the form of continuous
+   array value. while iterating list we use index to access the element.
+
+4. It will throw key error.
+
+5. Both are same as it will search whether key 'cat' is present in dictionary or not.
+
+6. 'cat' in spam will check whether key 'cat' is present in dictionary or not. 'cat' key in spam.values() will check if 'cat' 
+   is present in value of spam dictionary or not.
+
+7. spam.setdefault('color', 'black')
+
+8. import pprint
+   my_dict = {'name': 'Sumukha', 'age': 22, 'city': 'Bangalore'}
+   pprint.pprint(my_dict)
