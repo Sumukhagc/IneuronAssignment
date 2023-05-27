@@ -1,0 +1,80 @@
+1. True and False are 2 values of boolean datatype. 
+   We write it like True for value true and False for value false.
+
+2. and or not are the 3 different boolean operators.
+
+3. Truth table for 2 variables.
+		
+		OR truth table.
+
+	var1		var2		value
+	1		1		1
+	1		0		1
+	0		1		1
+	0		0		0
+
+		AND truth table
+
+	var1		var2		value
+	1		1		1
+	1		0		0
+	0		1		0
+	0		0		0
+
+		NOT truth table
+	var		value
+	1		0		
+	0		1
+
+4. i.True and False so answer is False
+   ii.not(5>4) i.e not(True) so answer is False
+   iii. True or False so answer is True
+   iv. not(True or False) i.e is not(True) so answer is False.
+   v.  True and False so answer is False
+   vi. True or False so answer is True.
+
+5. > Greater 
+   < Less
+   >= Greater than or equal to
+   <= Less than or equal to
+   == equal to 
+   != not equal to
+
+6. For equal to thats is to compare values we use '==' operator. but to assign values we use '=' operator.
+   ex: a=10 is an assignment operator
+       a==10 is comparison operator.
+
+7. Three blocks of code are
+    ham
+    spam
+    spam
+
+8.
+spam =int(input("Enter the number:"))
+if(spam ==0):
+    print("Hello")
+elif(spam==1):
+    print("Howdy")
+else:
+    print("Greetings!")
+
+9. ctrl + C
+
+10. break will come out of loop
+    continue will come out of that particular iteration.
+
+11. There is no difference between all three range(10), range(0,10) range(0,10,1) it will print values from 0 to 9.
+    first one in general will have values from 0 to n-1
+    second one will have values in the given range. ex range(a,b) will have values from a to b-1
+    third one will have value in the given range. ex range(a,b,c) will have values between a,b with step value of c.
+
+12. for(i in range(1,11)):
+	print(i)
+
+	using while loop
+	i=1
+	while(i<=10):
+           print(i)
+           i=i+1
+
+13. spam.bacon() 	
