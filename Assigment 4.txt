@@ -1,0 +1,44 @@
+1. It is an empty list.
+2. spam.insert(2,"Hello")
+3. d
+4. d
+5.['a','b']
+6. 1
+7. [3.14, 'cat', 11, 'cat', True, 99]
+8.[3.14, 11, 'cat', True]
+9. replication is nothing but creating new list by replicating element of existing list.
+   eg. a="Python"
+       replica=a*3	
+      #value of replica will be "PythonPythonPython"
+   concatenation is appending 2 variable 
+   eg: a="python" 
+       b="code"
+       a+b is concatenation it has value "pythoncode"
+10. append() is a method used to append values at the end of list
+    insert() is method used to insert values in a specified position of a list.
+
+11. using delete() method and using del.
+    delete("<value in a list>") we use delete() method by passing value of list as parameter.
+    del list[<index>] here we pass index to delete the value.
+
+12. Both String and list are sequence type that is string store sequence of characters.List can store sequence of homogeneous and 
+    heterogeneous values.
+    Both String and list values we can index and slice to get desired values of string and list.
+    Both String and list are mutable i.e we can modify the values.
+
+13. Tuples are immutable i.e we cannot change value once intialised.
+    Lists are mutable i.e we can change values of the list.
+
+14. tup=(42,)
+
+15. to get list value in tuple form we use tuple(my_list)
+    to get tuple value in list form we use list(my_tuple)
+
+16. Variables that contain list values has the reference to the memory where the list values are present in memory.
+
+
+17.
+ copy.copy() will do a shallow copy. that is new objects are created but the value inside are still referenced to the original list.
+so any change made in the copied object will reflect in the original object also.
+copy.deepcopy() will do a deep copy. that is new objects are created and all the values are copied 
+from the original objects to new object.So any change made in new copy will not make changes in the original copy.
